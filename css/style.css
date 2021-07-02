@@ -30,6 +30,7 @@ container{
     flex-wrap: wrap;
     align-items: center ;
     justify-content: center;
+    
 }
 
 .heroes {
@@ -63,6 +64,7 @@ container{
     max-height: 610px;
     border-top-left-radius:   20px;
     border-top-right-radius: 20px ;
+    
 }
 .fichas h2{
     position: relative;
@@ -104,7 +106,29 @@ container{
 }
 
 
+#elipse {
+   display: flex;
+   position: -webkit-sticky;
+   position: sticky;
+   width: 100%;
+   top: 600px;
+   justify-content: flex-end;
+   
+}
 
+#elipse span{
+    display: block;
+    font-size: 50px;
+    text-align: center;
+    color: white;
+    width: 60px;
+     height: 60px;
+     -moz-border-radius: 50%;
+     -webkit-border-radius: 50%;
+     border-radius: 50%;
+     background: #00669F;
+     
+}
 
 .footer {
     display: flex;
@@ -120,18 +144,18 @@ container{
 .footer p {
     font-family: Roboto;
     color: white;
-    margin-left: 16px;
-    font-size: 16px;
-    text-align: center;
+    
+    font-size: 10px;
+    
     position: absolute;
 }
 
 #git{
-    height: 20px;
+    height: 15px;
     display: flex;
     width: 100%;
     justify-content: flex-end;
-    margin-right: 10px;
+    margin-right: 5px;
     
 
 }
@@ -140,7 +164,16 @@ container{
         display: flex;
         justify-content: space-evenly;
         margin: 3.65%;
+        
     }
 
+    .footer p{
+        font-size: 16px;
+    }
+
+    #elipse {
+        top: 790px;
+        margin-right: 10px;
+    }
    
 }
